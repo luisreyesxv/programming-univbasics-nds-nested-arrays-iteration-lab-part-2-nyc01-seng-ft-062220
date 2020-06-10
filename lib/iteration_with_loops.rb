@@ -4,9 +4,6 @@ def find_min_in_nested_arrays(src)
   # Produce a new Array that contains the smallest number of each of the nested arrays
   lowest_array = Array.new
   for x in src
-    for y in x
-      binding.pry
-    lowest_array << y.min
-    end
+    lowest_array << x.min
   end
 end
