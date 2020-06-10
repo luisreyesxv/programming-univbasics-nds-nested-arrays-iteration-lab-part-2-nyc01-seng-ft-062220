@@ -4,5 +4,5 @@ def find_min_in_nested_arrays(src)
   lowest_array = Array.new
   for x in src
     lowest_array << x.min
-  end  
+  end
 end
