@@ -5,5 +5,6 @@ def find_min_in_nested_arrays(src)
   for x in src
     for y in x
     lowest_array << y.min
+    end
   end
 end
