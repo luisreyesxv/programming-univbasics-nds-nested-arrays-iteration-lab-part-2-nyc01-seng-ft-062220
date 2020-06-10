@@ -7,4 +7,5 @@ def find_min_in_nested_arrays(src)
     binding.pry
     lowest_array << x.min
   end
+  lowest_array
 end
